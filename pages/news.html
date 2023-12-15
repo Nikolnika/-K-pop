@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nika!</title>
+
+    <style>
+        body {
+            background-color: #eda3a3;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            background-color: #efacc2;
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .post-img {
+            max-width: 400px;
+            max-height: 400px;
+            border-radius: 40px;
+            width: 100%;
+        }
+
+        .post-card {
+            background-color: #fff;
+            border-radius: 20px;
+            margin: 20px 0;
+            padding: 20px;
+            transition: transform 0.2s;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .post-card:hover {
+            transform: scale(1.05);
+        }
+
+        .post-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .post-content {
+            font-size: 16px;
+            color: #000000;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #e08cac;
+            color: white;
+            padding: 10px;
+            border-radius: 20px 20px 0 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #e08cac;
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 20px 20px 0 0;
+            background-color: #eda3a3;
+            margin-top: 10px;
+            padding: 10px;
+            border: 10px;
+
+
+        }
+
+        nav a {
+            color: azure;
+            text-decoration: none;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .news-acricle {
+            background-color: #e08cac;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #000000;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+
+        }
+
+        .news-acricle:hover {
+            transform: scale(1.65);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .news-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news-acricle {
+            background-color: aliceblue;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: black;
+            padding: 20px;
+            transition: transform 0.3, box-shadow 0.3;
+        }
+
+        .news-acricle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news-content {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .news-date {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <h1>Welcome to my K-pop site!</h1>
+    </header>
+    <nav>
+
+        <a href="../index.html">Homes</a>
+        <a href="./video.html">Video</a>
+
+        <a href="./news.html">News</a>
+        <a href="./contacts.html">Contacts</a>
+    </nav>
+    <div class="container">
+        <div class="news-container">
+            <div class="news-article">
+                <h2 class="news-title"> </h2>
+                <p class="news-content"> ITZY
+                    21 січня 2019 року JYP Entertainment оголосили, що дебютують новий жіночий гурт,
+                    перший після дебюту TWICE у 2015 році та перший загалом після дебюту Stray Kids у 2017 році.[2] На
+                    офіційному YouTube каналі лейблу був завантажений фільм-пролог, в якому представили п'ять дівчат:
+                    Юну, Рюджин, Черьон, Лію та Єджі.
+
+                    24 січня стало відомо що гурт дебютує з сингловим альбомом "IT'z Different". 11 лютого був випущений
+                    тизер до кліпу на заголовний трек "Dalla Dalla". Наступного дня, був випущений саме відео та ITZY
+                    дебютували. Їх дебют у Billboard був одним з найбільш масштабних K-pop дебютів: "Dalla Dalla"
+                    дебютувала на третьому місці і досягла другого місця в чарті World Digital Song Sales. У США
+                    пісню завантажили більше 2,000 разів на 14 лютого, згідно з Nielsen Music, ставши найбільш
+                    популярною K-pop піснею в Америці за тиждень. "Want It?", випущена разом із "Dalla Dalla,"
+                    дебютувала на восьмій позиції з 1,000 завантажень. "Dalla Dalla" також стала другою за популярністю
+                    піснею на YouTube.</p>
+                <p class="news-date"></p>
+            </div>
+
+            <a href="">News</a>
+            </nav>
+            <div class="container">
+                <div class="news-container">
+                    <div class="news-article">
+                        <h2 class="news-title"> </h2>
+                        <p class="news-content">Astro
+                            23 февраля 2016 года ASTRO дебютировали с мини-альбомом Spring Up с
+                            заглавной песней "Hide & Seek". В течение недели после выпуска, альбом достиг 6-го места
+                            в чарте Billboard World Albums в США, а также 4-е место в чарте Gaon Music.[6][7] 25 февраля
+                            группа выпустила клип на "Cat's Eye", содержащий отрывки из их вэб-дорамы Продолжение
+                            следует.
+
+                            На шоукейсе было объявлено название фэндома - AROHA, которое расшифровывается следующим
+                            образом: ASTRO Hearts All Fans (АSTRO любят всех своих фанатов). Также AROHA с маорского
+                            языка переводится как "любовь".
+
+                            6 марта группа была единственными корейскими артистоми приглашёнными на LeTV Entertainment
+                            Awards в Китае.
+
+                            1 июля был выпущен второй мини-альбом Summer Vibes с заглавной песней "Breathless".[10]
+                            Альбом занял 6-е место в мировом рейнтинге альбомов и 21-е место в мировом рейтинге цифровых
+                            песен Billboard соответственно.
+
+                            21 июля ASTRO выступили в Стэйплс-центре в Лос-Анджелесе для KCON 2016.[12] Свой первый
+                            сольный концерт они провели 27-28 августа в Центре искусств KEPCO в Сеуле.[13] Группа также
+                            провела презентации в Японии, Индонезии и Таиланде в течение октября и ноября.
+
+                            10 ноября был выпущен третий мини-альбом Autumn Story с заглавной песней "Confession". В
+                            клипе участвовала Сэи из Weki Meki.</p>
+                        <p class="news-date"></p>
+                    </div>
+
+
+                    </nav>
+                    <div class="container">
+                        <div class="news-container">
+                            <div class="news-article">
+                                <h2 class="news-title"> </h2>
+                                <p class="news-content">(G)I-DLE офіційно дебютували 2 травня з мініальбомом I Am та
+                                    синглом «Latata». Того ж дня відбувся у Blue Square iMarket Hall відбувся дебютний
+                                    шоукей. Наступного дня гурт вперше виступив на телешоу — M Countdown.
+
+                                    Менше, ніж за два дні сумарна кількість переглядів «Latata» (на каналі 1theK та
+                                    офіційному каналу Cube) перевищила 2 мільйони. Мініальбом дебютував на 13 місці в
+                                    Gaon Albums Chart. I Am також дебютував на сьомій позиції, а потім досяг п'ятого
+                                    рядка в Billboard World Albums Chart. «Latata» дебютував на 35 місці в цифровому
+                                    чарті синглів. 22 травня, через 20 днів після дебюту (G) I-DLE, здобули перемогу на
+                                    The Show. 24 травня гурт отримав нагороду M! Countdown, а 29 — The Show. Через
+                                    місяць після дебюту (G)I-DLE потрапили 36 позицію Billboard Social 50. 8 червня
+                                    колектив зайняв 1 місце у списку репутації бренду жіночих гуртів, індекс склав понад
+                                    10 мільйонів. 63,55 % думок були позитивними. На щорічній премії Korea Brand Awards
+                                    вони здобули перемогу у категорії «Найкращий жіночий новачок року».
+
+                                    14 серпня був випущений перший цифровий сингл «Hann» та музичне відео до нього. За
+                                    добу кліп набрав 4,9 мільйонів переглядів на YouTube. «Hann» очолив корейські
+                                    музичні чарти, включаючи Bugs, Genie та Olleh Music 16 серпня, і досяг нового піку у
+                                    світовому чарті продажів цифрових пісень Billboard, де вони дебютували на № 2. 29
+                                    серпня гурт здобув перемогу у музичному шоу Show Champion. У вересні гурт вперше
+                                    виступив на KCON у Таїланді.
+
+                                    У листопаді Riot Games випустили пісню під назвою «Pop/Stars», в якій Сойон і Мійон
+                                    разом з американськими співачками Медісон Бір та Джейрою Бьорнс дебютували у складі
+                                    віртуального жіночого гурту K/DA. Сойон та Мійон озвучили персонажок Акалі та Арі.
+                                    Також вони разом із Бір та Бьорнс виконали «Pop/Stars» на чемпіонаті світу з League
+                                    of Legends.Сингл посів перше місце у Billboard's World Digital Sales.
+
+                                    Наприкінці 2018 року (G)I-DLE отримали кілька нагород для великих корейських
+                                    музичних шоу в кінці року, включаючи Asia Artist Awards, Gaon Chart Music Awards,
+                                    Genie Music Awards, Golden Disk Awards, Korea Popular Music Awards та Melon Music
+                                    Awards.</p>
+                                <p class="news-date"></p>
+                            </div>
+
+
+
+
+                            </nav>
+                            <div class="container">
+                                <div class="news-container">
+                                    <div class="news-article">
+                                        <h2 class="news-title"> </h2>
+                                        <p class="news-content">K-pop, кей-поп[1] (/keɪ pɔp/, абревіатура від англ.
+                                            Korean pop;
+                                            кор. K-팝[2]) — музичний жанр, який охоплює безліч стилів поп-музики
+                                            Південної
+                                            Кореї[3], включаючи різні напрямки танцювальної музики, електропоп, хіп-хоп
+                                            і
+                                            сучасний ритм-енд-блюз.
+
+                                            Згідно з автором американського музичного журналу «Rolling Stone», K-pop
+                                            являє собою
+                                            «суміш модної західної музики і високоенергетичного японського попа» і
+                                            «полює за
+                                            головами слухачів за допомогою повторюваних „чіплялок“, іноді англійською
+                                            мовою».
+                                            K-pop «йде по лінії змішання стилів, поєднує і спів, і реп, і робить
+                                            особливий
+                                            наголос на виступи на сцені і потужні візуальні ефекти»[4].
+
+                                            K-pop — це не просто музика, K-pop перетворився на субкультуру, яка має
+                                            популярність
+                                            серед молодих людей у всьому світі. Завдяки Інтернету і доступності
+                                            цифрового
+                                            контенту, K-pop досягає неймовірно широкої аудиторії.</p>
+                                        <p class="news-date"></p>
+                                    </div>
+                                </div>
+
+
+                                <footer>
+                                    &copy;2023
+                                </footer>
+
+
+</body>
+
+</html>
